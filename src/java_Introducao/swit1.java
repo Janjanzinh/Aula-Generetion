@@ -26,7 +26,7 @@ public class swit1 {
 		System.out.println("\nDigite a sua opção:");
 		
 		ca = leia.nextInt();
-		System.out.println("\nValor do produto");
+		System.out.println("\nQuantidade do produto");
 		quantidade = leia.nextInt();
 		
 		
@@ -43,18 +43,23 @@ public class swit1 {
 			break;
 		case 3:
 			System.out.println("\nX-BACON");
+			total = quantidade*18;
 			break;
 		case 4:
 			System.out.println("\nBAURU");
+			total = quantidade*12;
 			break;
 		case 5:
 			System.out.println("\nREFRIGERANTE");
+			total = quantidade*8;
 			break;
 		case 6:
 			System.out.println("\nSUCO DE LARANJA");
+			total = quantidade*13;
 			break;
 		default:
 			System.out.println("\nOpção invalida...");
+			
 			break;
 			
 			
