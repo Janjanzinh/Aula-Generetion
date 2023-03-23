@@ -32,7 +32,7 @@ public class Exc_Collections_list {
 		
 		int posicao = minhalista.indexOf(op);
 		
-		if(posicao !=1) {
+		if(posicao !=-1) {
 			
 			System.out.println("\nO numero "+op+"está na posição: "+posicao);
 		}else {
