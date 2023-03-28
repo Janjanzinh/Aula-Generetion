@@ -9,28 +9,17 @@ public class IF {
 		
 Scanner leia = new Scanner(System.in);
 		
-		float numA,numB,soma,comparador; 
-		
-		System.out.println("\nPrimeiro valor:");
-		numA = leia.nextFloat();
-		System.out.println("\nSegundo valor:");
-		numB = leia.nextFloat();
-		
-		soma = (numA+numB);
-		System.out.println("\nValor da soma:"+soma);
-		System.out.println("\n comparar o resultado:");
-		comparador = leia.nextFloat();
-		
-		if(soma>comparador){
-		System.out.println("\nO numero é maior!");
-			
-		}else if(soma<comparador){
-			System.out.println("/no numero é menor!");
-		}
-		
-		
-		
+int n1 = 4, n2 = 3, n3 = 4;
 
-	}
+if(n1 < 5) {
+	System.out.println("O número 1 é menor do que 5.");
+}
 
+if(n1 < n2) {
+	System.out.println("O número 1 é menor do que o número 2.");
+}
+
+if(n1 == n2)
+	System.out.println("O número 1 e o número 3 são iguais.");
+}
 }
